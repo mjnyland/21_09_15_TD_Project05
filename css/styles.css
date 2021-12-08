@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+}
+
+.search-bar {
+  position: relative;
+}
+
+.search {
+  position: relative;
+  height: 50px;
+  padding: 12px 11px;
+  width: 50%;
+  border: 2px solid #DDDDDD;
+  border-radius: 5px;
+  margin: 25px auto;
+  display: block;
+}
+
+.gallery {
+  display: -ms-grid;
+  display: grid;
+  width: 80%;
+  max-width: 1000px;
+  margin: auto;
+  grid-gap: 6px;
+  -ms-grid-columns: (minmax(200px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+/*# sourceMappingURL=styles.css.map */
